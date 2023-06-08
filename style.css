@@ -901,7 +901,7 @@ top: 9px;
 footer {
     position: absolute;
 width: 1348px;
-height: 802px;
+height: 750px;
 left: 0px;
 top: 3650px;
 background-color: #FBFCFC;
@@ -958,8 +958,70 @@ box-shadow: 0px 163px 80px rgba(0, 0, 0, 0.04), 0px 105.648px 46.8519px rgba(0, 
     position: absolute;
 width: 167px;
 height: 72px;
-margin-left: 300px;
-margin-top: 25px;
+margin-left: 480px;
+margin-top: -90px;
 background-color: #F85A47;
 box-shadow: 0px 100px 80px rgba(248, 90, 71, 0.07), 0px 64.8148px 46.8519px rgba(248, 90, 71, 0.0531481), 0px 38.5185px 25.4815px rgba(248, 90, 71, 0.0425185), 0px 20px 13px rgba(248, 90, 71, 0.035), 0px 8.14815px 6.51852px rgba(248, 90, 71, 0.0274815), 0px 1.85185px 3.14815px rgba(248, 90, 71, 0.0168519);
+}
+
+.footbtn h3 {
+    line-height: 144.2%;
+    letter-spacing: 0.02em;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left:50px;
+    margin-top:25px;
+    font-size: medium;
+}
+
+.footline {
+    position: absolute;
+    width: 880px;
+    height: 0px;
+    left: 278px;
+    top: 500px;
+    border: 1px solid #DEDFE1;
+}
+
+.headerfoot {
+    width:140px;
+    margin-left: 270px;
+    height:61px;
+    top:545px;
+    position:absolute;
+    
+    
+}
+.headerfoot h2 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left; 
+}
+
+.menufoot{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 46px;
+    position: absolute;
+    left: 650px;
+    top: 550px;
+}
+
+.menufoot h5{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+.copy {
+    position:absolute;
+    top:670px;
+    left:550px;
+}
+
+.copy h5{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
