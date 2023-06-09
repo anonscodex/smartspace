@@ -356,9 +356,30 @@
             <h5>Portfolio</h5>
             <h5>Blog</h5>
             <h5>Contact</h5>
+
         </div>
 
         <div class="copy"><h5>Copyright © 2023 Anonscodex . All Rights Reseved.</h5></div>
+
     </footer>
+
+    <div id="mobile-message" style="display: none;">
+        <p>This website is not available on mobile devices.</p>
+      </div>
+      
+      <script>
+        // Check if the user is viewing from a mobile device
+        var isMobile = /iPhone|iPad|iPod|Android|webOS|BlackBerry|Windows Phone/i.test(navigator.userAgent);
+      
+        // Disable other code if the user is on a mobile device
+        if (isMobile) {
+          // Hide all other elements on your website
+          document.body.innerHTML = '';
+      
+          // Display the mobile message
+          var mobileMessage = document.getElementById('mobile-message');
+          mobileMessage.style.display = 'block';
+        }
+      </script>
 </body>
 </html>
