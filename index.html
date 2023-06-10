@@ -374,9 +374,10 @@
         // Disable other code if the user is on a mobile device
         if (isMobile) {
           // Hide all other elements on your website
-          document.body.innerHTML = '';
-      
-          // Display the mobile message
+          document.body.innerHTML = '';  
+        }
+        else {
+            // Display the mobile message
           var mobileMessage = document.getElementById('mobile-message');
           mobileMessage.style.display = 'block';
         }
