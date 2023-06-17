@@ -261,9 +261,10 @@ top: 9px;
 }
 
 .phase2 {
-    margin-left:550px;
+    margin-left:520px;
     position :absolute;
     top : 750px;
+    width:300px;
 }
 
 .phase2 h3 {
@@ -494,6 +495,7 @@ top: 9px;
     margin-left:450px;
     position :absolute;
     top : 1950px;
+    width:500px;
 }
 
 .phase4 h3 {
