@@ -365,6 +365,8 @@ top: 9px;
     font-family: serif;
     font-weight: 300;
     font-style: bold;
+    width:300px;
+    margin-left:-40px;
 }
 
 .underword1 {
