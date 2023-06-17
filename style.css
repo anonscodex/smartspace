@@ -478,7 +478,8 @@ top: 9px;
 }
 
 .imgroll img {
-    padding-left: 0px;
+    padding-left:50px;
+   width:320px;
    
     
 }
