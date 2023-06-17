@@ -233,35 +233,35 @@ top: 9px;
 .fb {
     position: absolute;
     top:250px;
-    right:30px;
+    margin-left:1300px;
 }
 
 .insta {
     position: absolute;
     top:300px;
-    right:30px;
+    margin-left:1305px;
 }
 
 .instar {
     position: absolute;
     top:298px;
-    right:25px;
+    margin-left:1300px;
 }
 
 .tweet {
     position: absolute;
     top:350px;
-    right:30px;
+    margin-left:1300px;
 }
 
 .in {
     position: absolute;
     top:400px;
-    right:30px;
+    margin-left:1300px;
 }
 
 .phase2 {
-    width:99%;
+    margin-left:550px;
     position :absolute;
     top : 750px;
 }
@@ -478,14 +478,13 @@ top: 9px;
 }
 
 .imgroll img {
-    padding-left: 20px;
-    width:30%;
-    height:50%;
+    padding-left: 0px;
+   
     
 }
 
 .phase4 {
-    width:99%;
+    margin-left:450px;
     position :absolute;
     top : 1950px;
 }
@@ -1025,4 +1024,16 @@ box-shadow: 0px 100px 80px rgba(248, 90, 71, 0.07), 0px 64.8148px 46.8519px rgba
 .copy h5{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+#mobile-message p{
+    font-size:100px ;
+    text-align: center;
 
+}
+
+#mobile-message {
+    max-width :800px;
+    border: 2px solid black;
+    border-radius: 40px 50px;
+    margin-left:200px;
+    display:none;
+}
