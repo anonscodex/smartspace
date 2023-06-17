@@ -477,20 +477,17 @@ top: 9px;
     margin-left:80px;
 }
 
-.roll1 {
+.imgroll img {
+    position:absolute;
     width:350px;
-    margin-left: 0px;
-    
-}
-
-.roll2 {
-    width:350px;
-    margin-left:40px;
 }
 
 .roll3 {
-    width:350px;
-    margin-left:40px;
+    margin-left:750px ;
+}
+
+.roll2 {
+    margin-left:375px;
 }
 
 .phase4 {
