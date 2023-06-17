@@ -372,14 +372,14 @@
        // var isMobile = /iPhone|iPad|iPod|Android|webOS|BlackBerry|Windows Phone/i.test(navigator.userAgent);
       
         // Disable other code if the user is on a mobile device
-       // if (isMobile) {
+        if (isMobile) {
           // Hide all other elements on your website
          // document.body.innerHTML = '';  
         
             // Display the mobile message
-        //  var mobileMessage = document.getElementById('mobile-message');
-         // mobileMessage.style.display = 'block';
-        //}
+          var mobileMessage = document.getElementById('mobile-message');
+          mobileMessage.style.display = 'block';
+        }
       </script>
 </body>
 </html>
